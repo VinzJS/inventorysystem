@@ -1,0 +1,115 @@
+*
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    background-color: #e0e0e0;
+}
+
+/* TABLE */
+
+table
+{
+    margin-top: 30px;
+    border: 2px #208ece solid
+}
+
+/* HEADER */
+
+.Header
+{
+    background-color: #208ece;
+    padding: 0px;
+}
+
+.Header h2
+{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+.Header p
+{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+/* NAVIGATION BAR */
+
+.Nav_Bar
+{
+    background-color: #145d88;
+    padding: 0px;
+}
+
+.Nav_Bar ul
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+}
+
+.Nav_Bar ul li
+{
+    margin-right: 50px;
+    color: white;
+}
+
+.Nav_Bar a
+{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* DIRECTORY */
+
+.Directory
+{
+    background-color: #1b9fa6;
+}
+
+.Directory p
+{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* DATA FORM */
+
+.Data_Form
+{
+    background-color: rgb(236, 236, 236);
+}
+
+.Container
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Container input
+{
+    margin-bottom: 10px;
+}
+
+.Container2
+{
+    background-color: #145d88;
+    color: white;
+    padding: 5px;
+    margin-left: 330px;
+    margin-right: 330px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
